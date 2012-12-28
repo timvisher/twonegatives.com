@@ -1,0 +1,30 @@
+html {
+	 background: #000 center;
+	 /* background-image: url(TwoNegativesLogo.png); */
+	 background-repeat: no-repeat;
+   background-attachment: fixed;
+}
+body {
+   position: fixed;
+   height: 90%;
+   width: 90%;
+   color: yellow;
+   font-size: 3em;
+   top: 5%;
+   left: 5%;
+   text-align: center;
+}
+
+a {
+   color: yellow;
+   border-bottom: dotted;
+   text-decoration: none;
+}
+
+a:hover, a:active {
+   border-bottom: solid #fff;
+}
+
+a:visited {
+   border-bottom: dotted #fff;
+}
