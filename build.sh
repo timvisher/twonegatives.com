@@ -1,10 +1,9 @@
 #!/usr/bin/env bash
 
-if [ -d target ]
+if [ ! -d target ]
 then
-    rm -rf target;
+    mkdir target;
 fi
 
-mkdir target
+rsync -avP --exclude '*.sketch' --delete src/ target/
 
-cp -r src/* target
